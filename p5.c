@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+int a,b;
+
+printf("Enter the value of a: ");
+scanf("%d",&a);
+
+printf("Enter the value of b : ");
+scanf("%d",&b);
+
+if(a > b) {
+  printf("a is greater %d\n",a);
+    }
+    else if (a < b) {
+        printf(" b is greater %d\n",b);
+    }
+    else {
+        printf("Both are equal %d\n");
+    }
+
+    return 0;
+}
+
